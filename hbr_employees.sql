@@ -1,6 +1,6 @@
-CREATE SCHEMA fw_employee_hb;
+CREATE SCHEMA hbr_employees;
 
-USE fw_employee_hb;
+USE hbr_employees;
 
 DROP TABLE IF EXISTS `employee`;
 

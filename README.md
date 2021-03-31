@@ -14,10 +14,15 @@
 
 Database Scripts are inside the project file system
 
-
 <br>
 
-## 3. Author
+## 3.Build Path - Notes
+
+- All jars for this project are added externally
+
+<br
+
+## 4. Author
 
 
 Bolis Konstantinos 12/12/2020

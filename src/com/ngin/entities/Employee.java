@@ -5,11 +5,14 @@ import javax.persistence.*;
 
 
 @Entity
+@Table(name="employee")
 @NamedQuery(name="Employee.findAll", query="SELECT e FROM Employee e")
 public class Employee implements Serializable {
+	
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY) // is essential only for session class
 	private int id;
 
 	private String company;
